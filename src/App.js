@@ -17,7 +17,7 @@ function App() {
           setData(res.data);
         })
         .catch((error) => {
-          alert(error);
+          alert("failed to fetch data");
         })
     }
     onLoad();
