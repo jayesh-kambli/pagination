@@ -1,0 +1,39 @@
+.fullWidth {
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #dddddd;
+}
+tr:last-child {
+  border-bottom: none;
+}
+
+.alignCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.width25vw {
+  width: 25vw !important;
+}
+
+th, td {
+  height: 2.5rem !important;
+}
+
+.naviBtn {
+  width: 5rem;
+  height: 2rem;
+  background-color: #009879;
+  color: white;
+  border: 0px;
+  border-radius: 0.2rem;
+  margin-inline: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
